@@ -30,7 +30,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
   position: relative;
-  width: 60%;
+  width: 70%;
   max-width: 960px;
   margin: auto;
   padding: 0 20px;
@@ -50,8 +50,7 @@
   .container {
     width: 80%; }
   .column,
-  .columns {
-    margin-left: 4%; }
+  .columns {}
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
