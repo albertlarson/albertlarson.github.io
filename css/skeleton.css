@@ -154,12 +154,12 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: green;
+  color: black;
   text-decoration: none;
   font-size:18px;
  }
 a:hover {
-  color: black;
+  color: #00A1E5;
   text-decoration: line-through;
 }
 
