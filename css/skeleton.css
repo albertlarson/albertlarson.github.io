@@ -32,7 +32,7 @@
   position: relative;
   width: 66%;
   max-width: 960px;
-  margin: auto;
+  margin: 0;
   padding: 0 20px;
   box-sizing: border-box;
   }
