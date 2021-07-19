@@ -40,7 +40,7 @@
 .column,
 .columns {
   width: 100%;
-  float: left;
+  float: center;
   box-sizing: border-box; }
 .five.columns {
   margin-top: 10%; }
