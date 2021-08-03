@@ -3,6 +3,8 @@
 <head>
 
   <style>
+
+    <!-- hashtags are related to particular ids -->
     #one {
       color:green;
     }
@@ -10,6 +12,13 @@
       color:pink;
       text-decoration:underline;
     }
+
+    <!-- dots are related to classes -->
+    .flex-container {
+      display: flex;
+    }
+
+
   </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -25,12 +34,11 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-
-  <div id='zero'>
-    <div id='one'>t1</div>
-    <div id='two'>t2</div>
-  </div>
-  <div id="div1">change text</div>
+    <div class='flex-container'>
+      <div id='one'>t1</div>
+      <div id='two'>t2</div>
+    </div>
+    <div id="div1">change text</div>
 
 
 
