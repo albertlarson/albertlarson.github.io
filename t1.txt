@@ -1,1 +1,2 @@
 hi, this is t1.
+<img src = 'ael-lighthouse-bw.jpg'>
