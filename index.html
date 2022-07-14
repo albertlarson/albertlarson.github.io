@@ -44,7 +44,7 @@
       text-decoration: none
     }
     a:hover {
-      color:violet;
+      color:indigo;
       text-decoration:none;
       font-size:24px;
     }
@@ -56,12 +56,24 @@
     }
     #id2 {
       font-size: 12;
+      color: #000000;
+    }
+    #id2:hover{
+      color:indigo;
+      cursor: pointer;
     }
 
   </style>
 </head>
 <body>
-
+  <script type="text/javascript">
+    <!--
+    
+    function MM_openBrWindow(theURL,winName,features) { //v2.0
+      window.open(theURL,winName,features);
+    }
+    //-->
+    </script>
   <div class="flex-container">
       <div class="row">
           <div class="flex-item"><img src='ael-lighthouse-bw.jpg' height='300' width='300'></div><br>
@@ -74,7 +86,10 @@
           <a href = 'https://twitter.com/albert__larson' target='blank'><img src='twitter.png' height=16></a>
           <a href = 'https://www.linkedin.com/in/albert-larson-a075b9126/' target='blank'><img src='linkedin.png' height=16></a><br>
           <span id='id0'>- -- --- ----</span>
-          <br><a id = 'id2' href='https://doi.org/10.1038/s43017-022-00303-x' target='blank'>nature article</span>
+          <br><a id = 'id2' onclick="MM_openBrWindow('https://doi.org/10.1038/s43017-022-00303-x','google','scrollbars=yes,width=900,height=1200'); return false;">
+            <i>A clearer view of Earth's water cycle via<br>neural networks and satellite data
+          </a></i><br>
+          <span id = 'id2'></span>
       </div>
   </div>
 
